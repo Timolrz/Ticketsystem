@@ -7,6 +7,6 @@
     <link rel='stylesheet' href='main.css'>
 </head>
 <body>
-    
+    <h1>Ticketsystem</h1>
 </body>
 </html>
