@@ -123,11 +123,11 @@ function priorityClass(string $priority): string
                 </a>
             <?php endforeach; ?>
         </nav>
-        <div class="sidebar-footer">
+        <!--<div class="sidebar-footer">
             <span class="avatar avatar-sidebar">TD</span>
             <span class="sidebar-user"><strong>Ticketdesk</strong><small>Support-Team</small></span>
             <span class="sidebar-more">···</span>
-        </div>
+        </div>-->
     </aside>
 
     <main class="main-content">
@@ -264,11 +264,10 @@ function priorityClass(string $priority): string
                     <?php if ($search !== '' || $statusFilter !== '' || $groupFilter !== ''): ?>
                         <a href="index.php" class="clear-filters">Filter zurücksetzen</a>
                     <?php else: ?>
-                        <span class="updated-hint">Änderungen werden automatisch gespeichert</span>
                     <?php endif; ?>
                 </div>
             </section>
-            <footer class="page-footer">Ticketdesk <span>·</span> Einfach den Überblick behalten.</footer>
+            <footer class="page-footer">Ticketdesk</footer>
         </div>
     </main>
 </div>
@@ -360,9 +359,9 @@ function priorityClass(string $priority): string
                 <div class="notes-list">
                     <?php foreach ($ticket['notes'] as $note): ?>
                         <article class="note-item">
-                            <span class="avatar note-avatar">TD</span>
+                            <!--<span class="avatar note-avatar">TD</span>-->
                             <div class="note-body">
-                                <div class="note-meta"><strong>Support-Team</strong><time><?= e(formatDateTime($note['created_at'])) ?></time></div>
+                                <div class="note-meta"><!--<strong>Support-Team</strong>--><time><?= e(formatDateTime($note['created_at'])) ?></time></div>
                                 <p><?= nl2br(e($note['text'])) ?></p>
                             </div>
                         </article>

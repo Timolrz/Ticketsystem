@@ -1,14 +1,19 @@
 [
     {
-        "id": "83b53efb41",
-        "title": "PC Kaputt",
-        "description": "",
-        "group": "Allgemein",
-        "priority": "urgent",
-        "status": "open",
-        "due_date": "2026-11-26",
-        "notes": [],
-        "created_at": "2026-11-24T16:10:24+01:00",
-        "updated_at": "2026-11-24T16:10:44+01:00"
+        "id": "2099fbed85",
+        "title": "Umbau ThinClients im Vorzimmer",
+        "description": "Jeder hat berreits eine VM es muss lediglich der umbau auf TCs und eine kurze einweisung erfolgen",
+        "group": "Umbau",
+        "priority": "low",
+        "status": "resolved",
+        "due_date": "2026-12-11",
+        "notes": [
+            {
+                "text": "Zertifikate sind noch nicht eingerichtet",
+                "created_at": "2026-11-24T19:06:09+01:00"
+            }
+        ],
+        "created_at": "2026-11-24T19:03:03+01:00",
+        "updated_at": "2026-11-24T19:06:09+01:00"
     }
 ]

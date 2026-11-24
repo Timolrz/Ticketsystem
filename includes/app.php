@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-const GROUPS = ['Allgemein', 'IT-Support', 'Abrechnung', 'Kundenservice'];
+const GROUPS = ['Handy', 'Neueinstellung', 'Umbau', 'Software Probleme', 'Allgemein'];
 const STATUSES = [
     'open' => 'Offen',
     'in_progress' => 'In Bearbeitung',
