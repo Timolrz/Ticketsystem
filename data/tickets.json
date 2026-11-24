@@ -1,0 +1,14 @@
+[
+    {
+        "id": "83b53efb41",
+        "title": "PC Kaputt",
+        "description": "",
+        "group": "Allgemein",
+        "priority": "urgent",
+        "status": "open",
+        "due_date": "2026-11-26",
+        "notes": [],
+        "created_at": "2026-11-24T16:10:24+01:00",
+        "updated_at": "2026-11-24T16:10:44+01:00"
+    }
+]
